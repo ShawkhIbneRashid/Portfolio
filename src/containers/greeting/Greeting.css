@@ -31,7 +31,7 @@
 }
 
 .greeting-text {
-  margin-top: 80px;
+  margin-top: 0px;
   font-size: 70px;
   line-height: 1.1;
   font-family: "Google Sans Bold";
@@ -50,8 +50,16 @@
   font-family: "Google Sans Medium";
 }
 
+.greeting-connect {
+  font-size: 40px;
+  line-height: 40px;
+  margin-right: 40px;
+  font-family: "Google Sans Medium Italic";
+}
+
 .greeting-image-div > * {
-  max-width: 100%;
+  max-width: 80%;
+  margin-left: 120px;
   height: auto;
 }
 

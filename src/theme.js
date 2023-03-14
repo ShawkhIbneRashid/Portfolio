@@ -6,6 +6,7 @@ export const blueTheme = {
   highlight: "#A6E1FA",
   dark: "#00072D",
   secondaryText: "#7F8DAA",
+  contactText: "#8D918D",
   imageHighlight: "#0E6BA8",
   compImgHighlight: "#E6E6E6",
   jacketColor: "#0A2472",

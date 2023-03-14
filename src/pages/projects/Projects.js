@@ -38,12 +38,14 @@ class Projects extends Component {
                   style={{ color: theme.text }}
                 >
                   {projectsHeader.title}
+				  
                 </h1>
                 <p
                   className="projects-header-detail-text subTitle"
                   style={{ color: theme.secondaryText }}
                 >
                   {projectsHeader["description"]}
+				  <a href="https://github.com/ShawkhIbneRashid">GitHub Page</a>
                 </p>
               </div>
             </div>
@@ -54,13 +56,7 @@ class Projects extends Component {
             return <GithubRepoCard repo={repo} theme={theme} />;
           })}
         </div>
-        <Button
-          text={"More Projects"}
-          className="project-button"
-          href={greeting.githubProfile}
-          newTab={true}
-          theme={theme}
-        />
+        
 
         {/* Publications  */}
         {publications.data.length > 0 ? (
